@@ -17,7 +17,7 @@
 #define IN3 9   // Right wheel reverse
 #define IN4 11  // Right wheel forward
 #define ENA 6   // Right wheel speed
-#define carSpeed 150  // initial speed of car >=0 to <=255
+#define carSpeed 200  // initial speed of car >=0 to <=255
 
 IRrecv irrecv(RECV_PIN);
 decode_results results;
